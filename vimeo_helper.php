@@ -8,7 +8,7 @@
  * @copyright	Copyright (c) 2012, Sekati LLC.
  * @license		http://www.opensource.org/licenses/mit-license.php
  * @link		http://sekati.com
- * @version		v1.0.0
+ * @version		v1.0.1
  * @filesource
  *
  * @usage 		$autoload['helper'] = array('vimeo');
@@ -19,11 +19,11 @@
 // VIMEO HELPERS
 
 /**
- * Get Vimeo ID
+ * Get Vimeo Id
  *
  * @access	public
  * @param	string	Vimeo URL
- * @return	string	Vimeo ID || FALSE
+ * @return	string	Vimeo ID | FALSE
  */
 if (!function_exists('vimeo_id')) {
 	function vimeo_id( $url = '') {
@@ -39,11 +39,11 @@ if (!function_exists('vimeo_id')) {
 }
 
 /**
- * Get Vimeo API data from video ID || URL.
+ * Get Vimeo API data
  *
  * @access	public
  * @param	string		Vimeo video url || id
- * @return	array 		API data object || FALSE
+ * @return	array 		array of useful simple API data.
  */
 if (!function_exists('vimeo_data')) {
 	function vimeo_data( $url_id = '') {
