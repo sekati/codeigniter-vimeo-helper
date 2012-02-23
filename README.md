@@ -2,7 +2,7 @@
 CodeIgniter Vimeo Video Helper
 ============================
 
-This is a small codeigniter helper library for working with the [Vimeo](http://vimeo.com) API. _If you are interested in YouTube integration please see [video helper](https://github.com/mpmont/video_helper)._
+A small [CodeIgniter](http://codeigniter.com) helper library for working with the [Vimeo](http://vimeo.com) API. _If you are interested in YouTube integration please see [video helper](https://github.com/mpmont/video_helper)._
 
 
 Installation
