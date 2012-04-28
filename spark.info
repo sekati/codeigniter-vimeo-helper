@@ -1,0 +1,4 @@
+name: vimeo 
+version: 1.0.3
+compatibility: 2.1.0
+tags: ["vimeo", "video", "helper"]

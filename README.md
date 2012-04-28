@@ -1,15 +1,15 @@
 
-CodeIgniter Vimeo Video Helper
+Vimeo Helper Spark for CodeIgniter
 ============================
 
-A small [CodeIgniter](http://codeigniter.com) helper library for working with the [Vimeo](http://vimeo.com) API. _If you are interested in YouTube integration please see [video helper](https://github.com/mpmont/video_helper)._
+A [CodeIgniter](http://codeigniter.com) helper [Spark](http://getsparks.org/) for working with the [Vimeo](http://vimeo.com) API. _If you are interested in YouTube integration please see [video helper](https://github.com/mpmont/video_helper)._
 
 
 Installation
 -------------------------------------
 
-1. Copy `vimeo_helper.php` to your `application/helpers` folder.
-2. Autoload the helper `$autoload['helper'] = array('vimeo');`.
+1. Install the spark: `php tools/spark install vimeo` - or, if not using Spark package management, copy `vimeo_helper.php` to your `application/helpers` folder.
+2. Load the spark: `$this->load->spark('vimeo/1.0.3');` - or, optionally autoload the spark in `application/config/autoload.php`: `$autoload['sparks'] = array('vimeo/1.0.3');`.
 3. Employ helper functions as needed.
 
 

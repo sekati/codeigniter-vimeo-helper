@@ -1,14 +1,14 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 /**
- * Sekati CodeIgniter Vimeo Helper
+ * Sekati CodeIgniter Vimeo Helper Spark
  *
  * @package		Sekati
  * @author		Jason M Horwitz
  * @copyright	Copyright (c) 2012, Sekati LLC.
  * @license		http://www.opensource.org/licenses/mit-license.php
  * @link		http://sekati.com
- * @version		v1.0.2
+ * @version		v1.0.3
  * @filesource
  *
  * @usage 		$autoload['helper'] = array('vimeo');
@@ -145,4 +145,3 @@ if ( ! function_exists('_isValidID'))
  
  
 /* End of file vimeo_helper.php */
-/* Location: application/helpers/vimeo_helper.php */
